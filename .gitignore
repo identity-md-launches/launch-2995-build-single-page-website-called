@@ -1,0 +1,12 @@
+# Retained evidence path budget: artifacts/ may contribute at most 1 MiB.
+!artifacts/
+!artifacts/**
+# Explicit path budget: 0 submitted bytes for each generated path below.
+# Dependencies and bundler/package-manager caches, at every nesting level.
+**/node_modules/
+**/.vite/
+**/.cache/
+**/.npm/
+# Disposable local test tools, browser profiles, reports, and screenshots.
+test/scratch/
+# Production dist/ and its runtime assets are intentionally included.

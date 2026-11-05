@@ -1,0 +1,55 @@
+{
+  "browser": "chromium",
+  "results": [
+    {
+      "name": "Production export works at a hosting subpath; all live-field conversions and confirmed block selection",
+      "passed": true
+    },
+    {
+      "name": "Manual refresh reloads all feeds and updates IDLE without animation",
+      "passed": true
+    },
+    {
+      "name": "Auto-refresh runs at 20 seconds; pause freezes fetches, manual refresh still works, resume restarts cadence",
+      "passed": true
+    },
+    {
+      "name": "Partial outage retains last known values, lets other feeds update, and recovers on retry",
+      "passed": true
+    },
+    {
+      "name": "Empty rankings and malformed measurements show honest, recoverable states",
+      "passed": true
+    },
+    {
+      "name": "Stale and unknown hardware states never animate; pause motion and reduced motion work",
+      "passed": true
+    },
+    {
+      "name": "Navigation, native dialog keyboard dismissal, focus restoration, and keyboard controls",
+      "passed": true
+    },
+    {
+      "name": "Long and untrusted identity text remains text; values and usernames stay visible",
+      "passed": true
+    },
+    {
+      "name": "Primary action, responsive layout, and automated accessibility at 320, 390, 768, 1024, and 1440",
+      "passed": true
+    },
+    {
+      "name": "200% text enlargement and RTL reflow preserve content and controls",
+      "passed": true
+    },
+    {
+      "name": "Slow request prevents overlapping refresh; timeout exits loading and allows recovery",
+      "passed": true
+    },
+    {
+      "name": "Initial total outage, community-only failure, empty-source recovery, no local resource failures",
+      "passed": true
+    }
+  ],
+  "localFailures": [],
+  "errors": []
+}

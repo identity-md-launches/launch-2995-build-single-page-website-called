@@ -1,0 +1,50 @@
+{
+  "checkedAt": "2026-11-05T12:15:33.097Z",
+  "hostingSubpath": "/preview/",
+  "checks": {
+    "initialLiveFetch": true,
+    "manualLiveRefresh": true,
+    "topTenRealEntries": true,
+    "allMetricsPresent": true,
+    "sourceDialog": true,
+    "localFontLoaded": true,
+    "shareImage1200x630": true,
+    "noConsoleOrResourceFailures": true,
+    "noHorizontalOverflowAt320": true
+  },
+  "responses": [
+    {
+      "url": "https://api.squeekchain.com/v1/status",
+      "status": 200
+    },
+    {
+      "url": "https://community.squeekchain.com/v1/community/stats",
+      "status": 200
+    },
+    {
+      "url": "https://community.squeekchain.com/v1/community/leaderboard?limit=10",
+      "status": 200
+    },
+    {
+      "url": "https://community.squeekchain.com/v1/community/stats",
+      "status": 200
+    },
+    {
+      "url": "https://api.squeekchain.com/v1/status",
+      "status": 200
+    },
+    {
+      "url": "https://community.squeekchain.com/v1/community/leaderboard?limit=10",
+      "status": 200
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Manrope",
+      "status": "loaded",
+      "weight": "400 600"
+    }
+  ],
+  "errors": [],
+  "missing": []
+}
